@@ -129,10 +129,10 @@ span.blockspam {
 
 .parallax2 {
   /* The image used */
-  background-image: url("../images/game.jpg");
+  background-image: url("../images/williston.jpg");
 
   /* Set a specific height */
-  min-height: 200px;
+  min-height: 250px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -176,4 +176,8 @@ span.blockspam {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
 }
