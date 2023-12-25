@@ -67,47 +67,41 @@
             <!-- Header -->
             <header class="header py-3">
                 <div class="header-inner">
-                    <nav class="navbar navbar-expand-lg py-1">
+                    <!-- Navbar6-->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
                         <div class="container">
-                            <a class="navbar-brand logo md-font-size font-family-secondary text-dark-gray m-0"
-                                href="index.html">
-                                <img src="assets/images/Misfit M.jpg" class="logo-img" alt="logo">
-                            </a>
-                            <button class="navbar-toggler base-plus-font-size" type="button" data-toggle="collapse"
-                                data-target="#main-menu" aria-controls="main-menu" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="base-color fas fa-bars text-dark-gray xl-font-size"></span>
-                            </button>
-                            <div class="collapse navbar-collapse mt-3 mt-lg-0 base-font-size align-items-center"
-                                id="main-menu">
-                                <ul class="navbar-nav ml-auto">
-                                    <li class="nav-item ml-lg-3">
-                                        <a href="sponsor.html" class="nav-link text-secondary font-weight__400 ips">
-                                            Sponsorship
-                                        </a>
+                            <div class="d-flex flex-grow-1">
+                                <span
+                                    class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                                <a class="navbar-brand logo" href="index.html">
+                                    <img src="assets/images/Misfit M.jpg" class="logo-img" alt="logo"></a>
+                                <div class="w-100 text-right">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                        data-target="#myNavbar">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                                <ul class="navbar-nav ml-auto flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="sponsor.html" class="nav-link m-2 menu-item nav-active">Sponsorship</a>
                                     </li>
-                                    <li class="nav-item ml-lg-3">
-                                        <a href="policies.html" class="nav-link text-secondary font-weight__400 ips">
-                                            Policies
-                                        </a>
+                                    <li class="nav-item">
+                                        <a href="policies.html" class="nav-link m-2 menu-item">Policies</a>
                                     </li>
-                                    <li class="nav-item ml-lg-3">
-                                        <a href="#footer" class="nav-link text-secondary font-weight__400 ips">
-                                            Contact
-                                        </a>
+                                    <li class="nav-item">
+                                        <a href="#footer" class="nav-link m-2 menu-item">Contact</a>
                                     </li>
-
                                 </ul>
                             </div>
                         </div>
                     </nav>
+                    <!-- End Navbar6-->
                 </div>
             </header>
         </div>
         <!--/ End Header -->
-
-
-
 
         <!-- How It Works -->
         <section id="how-works" class="section how-works"
