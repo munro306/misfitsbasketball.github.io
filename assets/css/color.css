@@ -59,7 +59,7 @@ a.text-gray:focus {
 	color: #534d56!important;
 }
 .text-black {
-	color: #3b566e;
+	color: #000000;
 }
 .text-body {
 	color: #6f8ba4!important;
@@ -76,6 +76,25 @@ a.text-gray:focus {
 
 .text-misfit-blue {
 	color:#38CBD6;
+}
+
+.text-misfit-pink {
+	color:#fb46ac;
+}
+
+.text-misfit-pink2 {
+	color:#FD189B;
+}
+
+.card-dark {
+	color:#242526;
+}
+
+.text-facebook-dark1{
+	color:#e4e6eb;	
+}
+.text-facebook-dark2{
+	color:#B0B3B8;	
 }
 
 /* Border */
@@ -97,6 +116,9 @@ a.text-gray:focus {
 .border-color-light-gray {
 	border-color: #f3f5f6!important;
 }
+.border-color-pink {
+	border-color: #fb46ac!important;
+}
 
 /* Background */
 .bg-primary {
@@ -109,7 +131,7 @@ a.text-gray:focus {
 	background-color: #000000;
 }
 .bg-dark-gray {
-	background-color: #555555;
+	background-color: #18191A;
 }
 .bg-gray {
 	background-color: #a9a9a9;
@@ -119,6 +141,10 @@ a.text-gray:focus {
 }
 .bg-light {
 	background-color: #f5f7fa!important;
+}
+
+.bg-card-dark {
+	background-color:#242526;
 }
 
 /* Form */

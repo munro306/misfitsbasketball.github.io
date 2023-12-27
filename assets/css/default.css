@@ -46,8 +46,9 @@ body {
 
 /* Box Shadow */
 .box {
-    background-color: #fff;
-    position: relative;
+    /*background-color: #fff:*/
+    background-color: #242526;
+	position: relative;
     width: 100%;
     padding: 2rem;
     margin: 1rem 0;
@@ -72,6 +73,10 @@ body {
 .section {
 	padding: 40px 0;
 }
+.section-no-pad {
+	padding: 0px 0;
+}
+
 .section-bg {
 	background-size: cover;
 	background-position: center;
