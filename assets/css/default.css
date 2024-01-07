@@ -85,10 +85,10 @@ body {
 
 /* Section */
 .section {
-	padding: 40px 0;
+	padding: 10px 0;
 }
 .section-no-pad {
-	padding: 0px 30px;
+	padding: 0px 0px;
 }
 
 .section-bg {

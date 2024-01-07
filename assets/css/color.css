@@ -156,21 +156,21 @@ a.text-gray:focus {
 
 /* Button */
 .btn-primary {
-	background-color: #507ce8;
-	border-color: #507ce8;
-	color: #ffffff;
+	background-color: #fb46ac;
+	border-color: #38CBD6;
+	color: #000000;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn.btn-primary:not(:disabled):active {
-	background-color: #3b6eea;
-	border-color: #3b6eea;
-	color: #ffffff;
+	background-color: #38CBD6;
+	border-color: #fb46ac;
+	color: #000000;
 }
 .btn-secondary {
 	background-color: #deeefc;
 	border-color: #deeefc;
-	color: #507ce8;
+	color: #38CBD6;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
