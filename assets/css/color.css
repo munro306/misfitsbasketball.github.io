@@ -9,15 +9,15 @@ Author URI: https://twitter.com/kantbtrue
 
 /* Link */
 a {
-	color: #507ce8;
+	color: #38CBD6;
 }
 a:hover,
 a:focus {
-	color: #3b6eea;
+	color: #fb46ac;
 }
 a.text-primary:hover,
 a.text-primary:focus {
-	color: #3b6eea!important;
+	color: #38CBD6!important;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
